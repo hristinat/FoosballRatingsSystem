@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.foosballratingssystem.MainFragment"
+        android:label="MainFragment">
+        <action
+            android:id="@+id/action_mainFragment_to_addResultFragment"
+            app:destination="@id/addResultFragment" />
+        <argument
+            android:name="resultId"
+            android:defaultValue="0L"
+            app:argType="long" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/addResultFragment"
+        android:name="com.example.foosballratingssystem.addResult.AddResultFragment"
+        android:label="AddResultFragment">
+        <action
+            android:id="@+id/action_addResultFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <argument
+            android:name="resultId"
+            app:argType="long" />
+    </fragment>
+</navigation>

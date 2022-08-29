@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Foosball Ratings System</string>
+
+    <string name="results">Results</string>
+    <string name="standings">Standings</string>
+    <string name="add_result">Add Result</string>
+    <string name="person">Person</string>
+    <string name="score">Score</string>
+    <string name="add">Add</string>
+    <string name="group_by_games_played">Group by games played</string>
+    <string name="group_by_games_won">Group by games won</string>
+    <string name="player">Player</string>
+    <string name="number">#</string>
+    <string name="games_won">Games Won</string>
+    <string name="games_played">Games Played</string>
+    <string name="please_enter_valid_data">Please enter valid data</string>
+    <string name="edit">Edit</string>
+</resources>
